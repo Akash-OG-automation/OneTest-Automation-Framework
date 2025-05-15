@@ -1,0 +1,29 @@
+# Framework Config - Paths
+EXCEL_PATH = testdata/AUT.xlsx
+PROPERTY_FILE = config/Properties.txt
+REPORT_PATH= test-output/reports/
+SCREENSHOT_DIR = test-output/screenshots/
+
+# Framework Config
+ENVIRONMENT=UAT
+STOP_ON_FAILURE = true
+LOGGING.CONSOLE = true
+PARALLEL_EXECUTION_ENABLED = false
+PARALLEL_THREADS = 2
+DEFAULT_TIMEOUT = 10
+
+# Browsers
+onetest.browser.default = Chrome
+onetest.browser.chrome = Chrome
+onetest.browser.edge = Edge
+onetest.browser.firefox = Firefox
+
+# Application URLs
+onetest.env.uat.orangehrm.link = "https://opensource-demo.orangehrmlive.com"
+onetest.env.dev.orangehrm.link = "https://dev.orangehrm.com"
+onetest.env.itt.orangehrm.link = "https://dev.orangehrm.com"
+
+# Credentials OrangeHRM
+onetest.cred.admin.username = "Admin"
+onetest.cred.admin.password = "admin123"
+

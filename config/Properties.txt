@@ -1,0 +1,8 @@
+# Element locators
+
+# Orange HRM login page
+
+usernameField = username:name
+passwordField = password:name
+loginButton = button:tagname
+dashboardHeading = //h6:xpath
