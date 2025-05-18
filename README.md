@@ -36,21 +36,21 @@ These instructions will guide you on how to set up and run the OneTest Automatio
 
 1.  **Clone the repository:**
     ```bash
-    git clone [YOUR_REPOSITORY_URL]
+    git clone [https://github.com/Akash-OG-automation/OneTest-Automation-Framework.git](https://github.com/Akash-OG-automation/OneTest-Automation-Framework.git)
     ```
-    *(Replace `[YOUR_REPOSITORY_URL]` with the actual URL of your GitHub repository once you've created it.)*
+    *(This command will download the OneTest Automation Framework project to your local machine.)*
 
 2.  **Navigate to the project directory:**
     ```bash
-    cd [YOUR_PROJECT_DIRECTORY]
+    cd OneTest-Automation-Framework
     ```
-    *(Replace `[YOUR_PROJECT_DIRECTORY]` with the name of your project directory.)*
+    *(This command will take you into the main project directory.)*
 
 3.  **Build the project using Maven:**
     ```bash
     mvn clean install
     ```
-    This command will download all dependencies and compile the project.
+    This command will download all necessary dependencies defined in the `pom.xml` file and compile the project. Ensure you have Maven installed on your system.
 
 ### ⚙️ Configuration ⚙️
 
